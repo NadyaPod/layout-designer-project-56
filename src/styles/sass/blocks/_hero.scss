@@ -1,0 +1,58 @@
+.hero {
+  padding: 200px 0;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+
+
+  &__title-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    margin: 0;
+    color: $white;
+    font-size: 60px;
+    line-height: 90px;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media (max-width: 767px) {
+      font-size: 30px;
+      line-height: 45px;
+    }
+  }
+
+  &__title-text {
+    margin: 0;
+    font-weight: 700;
+    color: $white;
+    font-size: 38px;
+    line-height: 57px;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+}
+
+
+
+
+
+
+.hero__form {}
+
+.hero-form {}
+
+.hero-form__text {}
+
+.hero-form__input {}
+
+.hero-form__button {}

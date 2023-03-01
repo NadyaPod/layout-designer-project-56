@@ -1,0 +1,22 @@
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+
+  &__text {
+    display: block;
+    color: $white;
+    font-size: 11px;
+    line-height: 16.5px;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__image {
+    display: block;
+  }
+}

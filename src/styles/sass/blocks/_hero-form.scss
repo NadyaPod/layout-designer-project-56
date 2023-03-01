@@ -1,0 +1,52 @@
+.hero-form {
+  &__wrap {
+    max-width: 570px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+      "b c"
+      "d d";
+    gap: 24px;
+  }
+
+  &__text {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    color: $white;
+    text-align: center;
+  }
+}
+
+.hero-form__input {
+  padding: 16px;
+  background-color: transparent;
+  border: 2px solid $grey;
+  border-radius: 3px;
+
+  &::placeholder {
+    color: $white;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &--name {
+    grid-area: b;
+  }
+
+  &--email {
+    grid-area: c;
+  }
+}
+
+.hero-form__button {
+  padding: 21px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: $green;
+  color: $white;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  grid-area: d;
+}

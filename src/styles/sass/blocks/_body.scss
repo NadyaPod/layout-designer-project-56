@@ -1,0 +1,8 @@
+.body {
+  position: relative;
+
+  &__header {
+    display: block;
+    position: absolute;
+  }
+}

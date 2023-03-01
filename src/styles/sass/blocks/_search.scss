@@ -1,0 +1,20 @@
+.search {
+  &__form {
+    width: 248px;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: $dark-grey;
+
+    &::placeholder {
+      color: $grey-secondary;
+      font-size: 13px;
+      line-height: 15px;
+      text-transform: uppercase;
+    }
+  }
+}

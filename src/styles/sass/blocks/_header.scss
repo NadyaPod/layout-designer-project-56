@@ -1,0 +1,14 @@
+.header {
+  max-width: 1180px;
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+
+  &__navigation {
+    margin-left: 90px;
+  }
+
+  &__search {
+    margin-left: auto;
+  }
+}

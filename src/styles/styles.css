@@ -68,6 +68,7 @@ h2 {
 }
 
 .container {
+  position: relative;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 120px;
@@ -79,7 +80,16 @@ h2 {
   }
 }
 
+.body {
+  position: relative;
+}
+.body__header {
+  display: block;
+  position: absolute;
+}
+
 .header {
+  max-width: 1180px;
   display: flex;
   align-items: center;
   padding: 25px 0;
@@ -155,4 +165,95 @@ h2 {
   font-size: 13px;
   line-height: 15px;
   text-transform: uppercase;
+}
+
+.hero {
+  padding: 200px 0;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+.hero__title-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.hero__title {
+  margin: 0;
+  color: #fff;
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .hero__title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+.hero__title-text {
+  margin: 0;
+  font-weight: 700;
+  color: #fff;
+  font-size: 38px;
+  line-height: 57px;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .hero__title-text {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+.hero-form__wrap {
+  max-width: 570px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "b c" "d d";
+  gap: 24px;
+}
+.hero-form__text {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-form__input {
+  padding: 16px;
+  background-color: transparent;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+}
+.hero-form__input::-moz-placeholder {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
+.hero-form__input::placeholder {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
+.hero-form__input--name {
+  grid-area: b;
+}
+.hero-form__input--email {
+  grid-area: c;
+}
+
+.hero-form__button {
+  padding: 21px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #34c176;
+  color: #fff;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  grid-area: d;
 }/*# sourceMappingURL=styles.css.map */
