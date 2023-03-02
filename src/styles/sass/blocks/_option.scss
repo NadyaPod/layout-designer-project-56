@@ -1,0 +1,90 @@
+.option {
+  width: 366px;
+  padding: 24px 24px 64px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (max-width: 1075px) {
+    max-width: 595px;
+    padding-top: 14px;
+  }
+
+  &--free {
+    background-image: url("../images/subscribe_1.png");
+  }
+
+  &--standard {
+    background-image: url("../images/subscribe_2.png");
+  }
+
+  &--premium {
+    background-image: url("../images/subscribe_3.png");
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 200px;
+    font-weight: 400;
+
+    color: $white;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    @media (max-width: 1075px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  &__price-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    margin-bottom: 40px;
+  }
+
+  &__price {
+    margin: 0;
+    color: $white;
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  &_currency {
+    color: $white;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    margin-bottom: 85px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    color: $white;
+    background-color: transparent;
+    border: 1px solid $white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__details {
+    margin: 0;
+    color: $white;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+}

@@ -32,7 +32,7 @@
   </header>
 
   <main class="main">
-    <section class="hero">
+    <section class="hero" id="page-description">
       <div class="container">
         <div class="hero__title-wrap">
           <h1 class="hero__title title">Онлайн музыка где угодно</h1>
@@ -49,26 +49,35 @@
         </form>
       </div>
     </section>
-    <section class="subscription">
+    <section class="subscription container" id="page-pricing">
       <h2 class="subscription__title">Формы подписки</h2>
       <ul class="subscription__option-list">
         <li class="subscription__option option option--free">
           <h3 class="option__title">Бесплатная</h3>
-          <p class="option__price">0<span class="option_currency">руб.</span></p>
+          <div class="option__price-wrap">
+            <p class="option__price">0</p>
+            <span class="option_currency">руб.</span>
+          </div>
           <a href="#" class="option__btn">Оформить</a>
           <p class="option__details">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в
             среднем качестве</p>
         </li>
         <li class="subscription__option option option--standard">
           <h3 class="option__title">Стандартная</h3>
-          <p class="option__price">250<span class="option_currency">руб.</span></p>
+          <div class="option__price-wrap">
+            <p class="option__price">250</p>
+            <span class="option_currency">руб.</span>
+          </div>
           <a href="#" class="option__btn">Оформить</a>
           <p class="option__details">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в
             среднем качестве</p>
         </li>
         <li class="subscription__option option option--premium">
           <h3 class="option__title">Премиум</h3>
-          <p class="option__price">500<span class="option_currency">руб.</span></p>
+          <div class="option__price-wrap">
+            <p class="option__price">500</p>
+            <span class="option_currency">руб.</span>
+          </div>
           <a href="#" class="option__btn">Оформить</a>
           <p class="option__details">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в
             среднем качестве</p>

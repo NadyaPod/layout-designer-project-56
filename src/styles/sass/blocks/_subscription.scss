@@ -1,0 +1,33 @@
+.subscription {
+  padding-top: 100px;
+}
+
+.subscription__title {
+  margin: 0;
+  margin-bottom: 48px;
+
+  color: $white;
+  text-align: center;
+}
+
+.subscription__option-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media (max-width: 1075px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.subscription__option {}
+
+.subscription__text {
+  color: $white;
+  text-align: center;
+}
