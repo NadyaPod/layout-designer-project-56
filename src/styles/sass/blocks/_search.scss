@@ -1,14 +1,13 @@
 .search {
-  &__form {
-    width: 248px;
-  }
-
   &__input {
+    display: block;
     width: 100%;
     padding: 5px 10px;
+
+    background-color: $dark-grey;
+
     border: none;
     border-radius: 50px;
-    background-color: $dark-grey;
 
     &::placeholder {
       color: $grey-secondary;

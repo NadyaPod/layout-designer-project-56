@@ -1,26 +1,38 @@
 .navigation {
-
   &__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
     margin: 0;
     padding: 0;
+
     list-style-type: none;
+
+    @media (max-width: 1075px) {
+      flex-direction: column;
+    }
   }
 
   &__link {
     display: block;
     padding: 10px;
+
     color: $grey;
     font-size: 11px;
     line-height: 16.5px;
     text-transform: uppercase;
     text-decoration: none;
+
     cursor: pointer;
+
+    @media (max-width: 1075px) {
+      padding: 0;
+
+      line-height: 13px;
+    }
 
     &--active {
       color: $white;
+
       cursor: default;
     }
   }
