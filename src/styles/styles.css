@@ -327,6 +327,7 @@ h2 {
   gap: 50px;
   flex-wrap: wrap;
   margin: 0;
+  margin-bottom: 40px;
   padding: 0;
   list-style: none;
 }
@@ -346,12 +347,12 @@ h2 {
   width: 366px;
   padding: 24px 24px 64px;
   background-position: center;
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 @media (max-width: 1075px) {
   .option {
-    max-width: 595px;
+    width: 100%;
     padding-top: 14px;
   }
 }
@@ -383,6 +384,7 @@ h2 {
 .option__price-wrap {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 40px;
 }
