@@ -353,7 +353,7 @@ h2 {
 @media (max-width: 1075px) {
   .option {
     width: 100%;
-    padding-top: 14px;
+    padding-top: 16px;
   }
 }
 .option--free {
@@ -400,8 +400,20 @@ h2 {
   line-height: 48px;
   text-transform: uppercase;
 }
-.option__btn {
-  margin-bottom: 85px;
+.option__button {
+  margin-bottom: 64px;
+}
+.option__details {
+  margin: 0;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  max-width: 310px;
+  margin: 0 auto;
+}
+
+.button {
   display: block;
   width: 100%;
   padding: 20px;
@@ -413,13 +425,12 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
 }
-.option__btn:hover {
-  opacity: 0.8;
+.button--size-s {
+  width: 135px;
+  color: #cacaca;
+  border-color: #cacaca;
+  padding: 18px;
 }
-.option__details {
-  margin: 0;
-  color: #fff;
-  font-size: 12px;
-  line-height: 18px;
-  text-align: center;
+.button:hover {
+  opacity: 0.8;
 }/*# sourceMappingURL=styles.css.map */

@@ -7,7 +7,7 @@
 
   @media (max-width: 1075px) {
     width: 100%;
-    padding-top: 14px;
+    padding-top: 16px;
   }
 
   &--free {
@@ -63,22 +63,8 @@
     text-transform: uppercase;
   }
 
-  &__btn {
-    margin-bottom: 85px;
-    display: block;
-    width: 100%;
-    padding: 20px;
-    color: $white;
-    background-color: transparent;
-    border: 1px solid $white;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-
-    &:hover {
-      opacity: 0.8;
-    }
+  &__button {
+    margin-bottom: 64px;
   }
 
   &__details {
@@ -87,5 +73,7 @@
     font-size: 12px;
     line-height: 18px;
     text-align: center;
+    max-width: 310px;
+    margin: 0 auto;
   }
 }
