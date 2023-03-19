@@ -4,10 +4,12 @@
   &__title {
     margin: 0;
     margin-bottom: 30px;
+
+    color: $white;
+
+    font-weight: 400;
     font-size: 30px;
     line-height: 45px;
-    color: $white;
-    font-weight: 400;
   }
 
   &__text {
@@ -22,19 +24,23 @@
     margin-bottom: 48px;
 
     &::before {
-      content: '';
       display: block;
+
       width: 20px;
       height: 20px;
-      border-radius: 50%;
+
       background-image: url("../images/avatar.png");
+
+      border-radius: 50%;
+
+      content: "";
     }
   }
 
   &__author {
+    color: $orange;
     font-size: 12px;
     line-height: 20px;
-    color: $orange;
     text-transform: uppercase;
   }
 

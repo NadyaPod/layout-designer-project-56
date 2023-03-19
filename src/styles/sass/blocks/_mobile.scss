@@ -4,9 +4,10 @@
   &__title {
     margin: 0;
     margin-bottom: 48px;
+
+    color: $white;
     font-size: 38px;
     line-height: 57px;
-    color: $white;
     text-align: center;
   }
 
@@ -22,8 +23,9 @@
   &__image-container {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
     justify-content: center;
+
+    width: 50%;
   }
 
   &__text {
@@ -34,12 +36,17 @@
   &__button {
     display: block;
     width: 131px;
-    border-radius: 32px;
+
     padding: 17px;
+
     color: $white;
     text-align: center;
-    background-color: $red;
     text-decoration: none;
+
+    background-color: $red;
+
+    border-radius: 32px;
+
     cursor: pointer;
 
     &:hover {

@@ -2,21 +2,28 @@
   display: block;
   width: 100%;
   padding: 20px;
+
   color: $white;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
   background-color: transparent;
+
   border: 1px solid $white;
   border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
 
   &--size-s {
     width: 135px;
-    color: $grey;
-    border-color: $grey;
     padding: 17px;
+
+    color: $grey;
+
     font-size: 12px;
     line-height: 20px;
+
+    border-color: $grey;
   }
 
   &:hover {
