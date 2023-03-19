@@ -1,12 +1,11 @@
 .logo {
+  display: block;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   align-items: center;
 
   &__text {
-    display: block;
-
     color: $white;
     font-size: 11px;
     line-height: 16.5px;
@@ -15,10 +14,6 @@
     @media (max-width: 1075px) {
       line-height: 13px;
     }
-  }
-
-  &__link {
-    display: block;
   }
 
   &__image {
