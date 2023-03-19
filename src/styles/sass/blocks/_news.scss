@@ -1,0 +1,23 @@
+.news {
+  padding-top: 100px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 48px;
+    font-size: 38px;
+    line-height: 57px;
+    color: $white;
+    text-align: center;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    display: flex;
+    gap: 50px;
+  }
+}

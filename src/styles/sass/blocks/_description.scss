@@ -1,0 +1,43 @@
+.description {
+  &__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 45px;
+    color: $white;
+    font-weight: 400;
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  &__info-wrap {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 48px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-image: url("../images/avatar.png");
+
+    }
+  }
+
+  &__author {
+    font-size: 12px;
+    line-height: 20px;
+    color: $orange;
+    text-transform: uppercase;
+  }
+
+  &__date {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
