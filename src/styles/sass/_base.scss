@@ -48,6 +48,7 @@ h1 {
 }
 
 h2 {
+  margin: 0;
   font-size: 38px;
   line-height: 57px;
   text-transform: uppercase;
@@ -56,6 +57,13 @@ h2 {
     font-size: 18px;
     line-height: 27px;
   }
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
 }
 
 .container {
