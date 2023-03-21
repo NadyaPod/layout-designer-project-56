@@ -9,10 +9,16 @@
     margin-bottom: 30px;
 
     color: $white;
-
     font-weight: 400;
     font-size: 30px;
     line-height: 45px;
+    text-transform: none;
+
+    @media (max-width: 1075px) {
+      margin-bottom: 0;
+
+      font-size: inherit;
+    }
   }
 
   &__text {
@@ -28,7 +34,6 @@
 
     &::before {
       display: block;
-
       width: 20px;
       height: 20px;
 

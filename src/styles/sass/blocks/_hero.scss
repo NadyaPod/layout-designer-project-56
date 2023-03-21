@@ -5,6 +5,10 @@
   background-position: center;
   background-size: cover;
 
+  @media (max-width: 1075px) {
+    padding-top: 248px;
+  }
+
   &__title-wrap {
     max-width: 1000px;
     margin: 0 auto;

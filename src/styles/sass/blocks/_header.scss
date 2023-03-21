@@ -1,17 +1,19 @@
 .header {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 
   @media (max-width: 1075px) {
     flex-direction: column;
-    gap: 18px;
+    gap: 14px;
     align-items: start;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   &__navigation {
-    margin-left: 90px;
+    margin-left: 80px;
 
     @media (max-width: 1075px) {
       margin-left: 0;
