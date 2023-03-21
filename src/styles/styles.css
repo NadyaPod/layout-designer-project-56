@@ -140,7 +140,6 @@ h3 {
 }
 
 .logo {
-  display: block;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -222,6 +221,9 @@ h3 {
   background-position: center;
   background-size: cover;
 }
+.hero--artist {
+  background-image: url("../images/Morten Harket.png");
+}
 @media (max-width: 1075px) {
   .hero {
     padding-top: 248px;
@@ -231,6 +233,10 @@ h3 {
   max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+.hero__title-wrap--artist {
+  margin-left: 0;
+  margin-right: 0;
 }
 @media (max-width: 1075px) {
   .hero__title-wrap {
@@ -244,6 +250,9 @@ h3 {
   line-height: 90px;
   text-align: center;
   text-transform: uppercase;
+}
+.hero__title--artist {
+  text-align: left;
 }
 @media (max-width: 767px) {
   .hero__title {
@@ -259,6 +268,11 @@ h3 {
   line-height: 57px;
   text-align: center;
   text-transform: uppercase;
+}
+.hero__title-text--artist {
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
 }
 @media (max-width: 767px) {
   .hero__title-text {
@@ -451,6 +465,16 @@ h3 {
   line-height: 20px;
   border-color: #cacaca;
 }
+.button--artist {
+  width: 200px;
+  padding: 17px;
+  color: #fff;
+  background-color: #5328a1;
+  font-size: 12px;
+  line-height: 20px;
+  border: none;
+  border-radius: 0;
+}
 .button:hover {
   opacity: 0.8;
 }
@@ -480,8 +504,8 @@ h3 {
 @media (max-width: 975px) {
   .news__item {
     flex-direction: column;
-    align-items: center;
     gap: 40px;
+    align-items: center;
   }
 }
 
@@ -604,9 +628,9 @@ h3 {
   display: block;
   width: 131px;
   padding: 17px;
+  color: #fff;
   font-size: 13px;
   line-height: 20px;
-  color: #fff;
   text-align: center;
   text-decoration: none;
   background-color: #95390c;
@@ -620,7 +644,7 @@ h3 {
 .footer {
   padding-top: 62px;
   color: #fff;
-  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+  background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
 .footer__container {
   display: flex;

@@ -24,6 +24,19 @@
     border-color: $grey;
   }
 
+  &--artist {
+    width: 200px;
+    padding: 17px;
+
+    color: $white;
+    background-color: $purple;
+    font-size: 12px;
+    line-height: 20px;
+
+    border: none;
+    border-radius: 0;
+  }
+
   &:hover {
     opacity: 0.8;
   }
