@@ -1,0 +1,29 @@
+.popular {
+  padding-top: 100px;
+
+  &__title {
+    color: $white;
+    margin-bottom: 48px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 25px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    @media (max-width: 1075px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

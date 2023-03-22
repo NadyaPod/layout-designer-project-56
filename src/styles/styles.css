@@ -369,7 +369,6 @@ h3 {
   padding-top: 100px;
 }
 .subscription__title {
-  margin: 0;
   margin-bottom: 48px;
   color: #fff;
   text-align: center;
@@ -747,4 +746,71 @@ h3 {
     flex-direction: column;
     gap: 16px;
   }
+}
+
+.popular {
+  padding-top: 100px;
+}
+.popular__title {
+  color: #fff;
+  margin-bottom: 48px;
+}
+.popular__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 25px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+@media (max-width: 1075px) {
+  .popular__list {
+    grid-template-columns: 1fr;
+  }
+}
+.popular__item {
+  max-width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track__title {
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+.track__artist {
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+.track__duration {
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+.track__info-wrap {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  grid-template-rows: 1fr 1fr;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.track__link {
+  display: block;
+  grid-row: 1/-1;
+}
+
+.discs {
+  padding-top: 100px;
+}
+.discs__title {
+  color: #fff;
+  margin-bottom: 48px;
 }/*# sourceMappingURL=styles.css.map */

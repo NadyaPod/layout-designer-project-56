@@ -1,0 +1,34 @@
+.track {
+  &__title {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+  }
+
+  &__artist {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  &__duration {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  &__info-wrap {
+    display: grid;
+    grid-template-columns: 55px 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+  }
+
+  &__link {
+    display: block;
+    grid-row: 1 / -1;
+  }
+}
