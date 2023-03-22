@@ -183,6 +183,9 @@ h3 {
   text-decoration: none;
   cursor: pointer;
 }
+.navigation__link:hover {
+  color: #fff;
+}
 @media (max-width: 1075px) {
   .navigation__link {
     padding: 0;
@@ -221,12 +224,19 @@ h3 {
   background-position: center;
   background-size: cover;
 }
-.hero--artist {
-  background-image: url("../images/Morten Harket.png");
-}
 @media (max-width: 1075px) {
   .hero {
     padding-top: 248px;
+  }
+}
+.hero--artist {
+  padding-top: 250px;
+  padding-bottom: 222px;
+  background-image: url("../images/Morten Harket.png");
+}
+@media (max-width: 1075px) {
+  .hero--artist {
+    padding-top: 225px;
   }
 }
 .hero__title-wrap {
@@ -234,13 +244,19 @@ h3 {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.hero__title-wrap--artist {
-  margin-left: 0;
-  margin-right: 0;
-}
 @media (max-width: 1075px) {
   .hero__title-wrap {
     margin-bottom: 16px;
+  }
+}
+.hero__title-wrap--artist {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 48px;
+}
+@media (max-width: 1075px) {
+  .hero__title-wrap--artist {
+    margin-bottom: 48px;
   }
 }
 .hero__title {
@@ -252,6 +268,7 @@ h3 {
   text-transform: uppercase;
 }
 .hero__title--artist {
+  margin-bottom: 16px;
   text-align: left;
 }
 @media (max-width: 767px) {
@@ -269,16 +286,20 @@ h3 {
   text-align: center;
   text-transform: uppercase;
 }
-.hero__title-text--artist {
-  font-size: inherit;
-  line-height: inherit;
-  text-align: left;
-}
 @media (max-width: 767px) {
   .hero__title-text {
     font-size: 18px;
     line-height: 27px;
   }
+}
+.hero__text {
+  margin: 0;
+  color: #fff;
+}
+.hero__button-wrap {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .hero-form__wrap {
@@ -467,13 +488,39 @@ h3 {
 }
 .button--artist {
   width: 200px;
-  padding: 17px;
+  padding: 21px;
+  padding-left: 74px;
+  text-align: left;
   color: #fff;
-  background-color: #5328a1;
   font-size: 12px;
   line-height: 20px;
   border: none;
   border-radius: 0;
+  position: relative;
+}
+.button--artist::before {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+}
+.button--mix::before {
+  -webkit-mask-image: url("../images/heart.svg");
+          mask-image: url("../images/heart.svg");
+  background-color: #fff;
+}
+.button--favourites::before {
+  -webkit-mask-image: url("../images/play-button.svg");
+          mask-image: url("../images/play-button.svg");
+  background-color: #fff;
+}
+.button--purple {
+  background-color: #5328a1;
+}
+.button--red {
+  background-color: #95390c;
 }
 .button:hover {
   opacity: 0.8;

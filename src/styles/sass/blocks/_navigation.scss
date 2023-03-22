@@ -25,6 +25,10 @@
 
     cursor: pointer;
 
+    &:hover {
+      color: $white;
+    }
+
     @media (max-width: 1075px) {
       padding: 0;
 
