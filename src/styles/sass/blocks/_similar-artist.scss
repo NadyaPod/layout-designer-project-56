@@ -1,5 +1,12 @@
-.disc {
-  &__title {
+.similar-artist {
+  text-align: center;
+
+  &__link {
+    display: block;
+    margin-bottom: 18px;
+  }
+
+  &__artist {
     margin: 0;
     font-size: 18px;
     line-height: 27px;
@@ -7,12 +14,7 @@
     color: $white;
   }
 
-  &__link {
-    display: block;
-    margin-bottom: 18px;
-  }
-
-  &__year {
+  &__subscribers {
     margin: 0;
     line-height: 24px;
   }

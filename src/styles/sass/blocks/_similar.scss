@@ -1,0 +1,28 @@
+.similar {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &__title {
+    color: $white;
+    margin-bottom: 48px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 50px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    @media (max-width: 1075px) {
+      justify-content: center;
+    }
+  }
+
+  &__item {
+    @media (max-width: 1075px) {
+      max-width: 137px;
+    }
+  }
+}

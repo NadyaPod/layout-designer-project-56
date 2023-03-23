@@ -840,12 +840,68 @@ h3 {
   font-weight: 700;
   color: #fff;
 }
+.disc__link {
+  display: block;
+  margin-bottom: 18px;
+}
 .disc__year {
   margin: 0;
   line-height: 24px;
 }
 @media (max-width: 1075px) {
   .disc__image {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+.similar {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.similar__title {
+  color: #fff;
+  margin-bottom: 48px;
+}
+.similar__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+@media (max-width: 1075px) {
+  .similar__list {
+    justify-content: center;
+  }
+}
+@media (max-width: 1075px) {
+  .similar__item {
+    max-width: 137px;
+  }
+}
+
+.similar-artist {
+  text-align: center;
+}
+.similar-artist__link {
+  display: block;
+  margin-bottom: 18px;
+}
+.similar-artist__artist {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #fff;
+}
+.similar-artist__subscribers {
+  margin: 0;
+  line-height: 24px;
+}
+@media (max-width: 1075px) {
+  .similar-artist__image {
     width: 137px;
     height: 137px;
   }
