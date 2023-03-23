@@ -205,6 +205,9 @@ h3 {
   border: none;
   border-radius: 50px;
 }
+.search__input:hover {
+  opacity: 0.8;
+}
 .search__input::-moz-placeholder {
   color: #757575;
   font-size: 13px;
@@ -221,8 +224,9 @@ h3 {
 .hero {
   padding: 200px 0;
   background-image: url("../images/banner.png");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 @media (max-width: 1075px) {
   .hero {
@@ -488,7 +492,7 @@ h3 {
 .button--artist {
   width: 200px;
   padding: 21px;
-  padding-left: 74px;
+  padding-left: 68px;
   text-align: left;
   color: #fff;
   font-size: 12px;
@@ -506,13 +510,13 @@ h3 {
   height: 20px;
 }
 .button--mix::before {
-  -webkit-mask-image: url("../images/heart.svg");
-          mask-image: url("../images/heart.svg");
+  -webkit-mask-image: url("../images/play-button.svg");
+          mask-image: url("../images/play-button.svg");
   background-color: #fff;
 }
 .button--favourites::before {
-  -webkit-mask-image: url("../images/play-button.svg");
-          mask-image: url("../images/play-button.svg");
+  -webkit-mask-image: url("../images/heart.svg");
+          mask-image: url("../images/heart.svg");
   background-color: #fff;
 }
 .button--purple {
@@ -696,7 +700,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 60px;
+  margin-bottom: 64px;
 }
 @media (max-width: 1158px) {
   .footer__container {
@@ -758,8 +762,6 @@ h3 {
 .popular__list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
   row-gap: 25px;
   padding: 0;
   margin: 0;
@@ -779,7 +781,8 @@ h3 {
 
 .track__title {
   margin: 0;
-  font-size: 12px;
+  padding-top: 8px;
+  font-size: 13px;
   line-height: 20px;
   font-weight: 700;
   color: #fff;
@@ -806,6 +809,9 @@ h3 {
   display: block;
   grid-row: 1/-1;
 }
+.track__image {
+  display: block;
+}
 
 .discs {
   padding-top: 100px;
@@ -823,13 +829,8 @@ h3 {
   list-style-type: none;
 }
 @media (max-width: 1075px) {
-  .discs__list {
-    justify-content: center;
-  }
-}
-@media (max-width: 1075px) {
   .discs__item {
-    max-width: 137px;
+    max-width: 138px;
   }
 }
 
@@ -842,11 +843,14 @@ h3 {
 }
 .disc__link {
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 .disc__year {
   margin: 0;
   line-height: 24px;
+}
+.disc__image {
+  display: block;
 }
 @media (max-width: 1075px) {
   .disc__image {
@@ -872,13 +876,8 @@ h3 {
   list-style-type: none;
 }
 @media (max-width: 1075px) {
-  .similar__list {
-    justify-content: center;
-  }
-}
-@media (max-width: 1075px) {
   .similar__item {
-    max-width: 137px;
+    max-width: 138px;
   }
 }
 
@@ -899,6 +898,9 @@ h3 {
 .similar-artist__subscribers {
   margin: 0;
   line-height: 24px;
+}
+.similar-artist__image {
+  display: block;
 }
 @media (max-width: 1075px) {
   .similar-artist__image {

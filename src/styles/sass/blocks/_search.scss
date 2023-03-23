@@ -9,6 +9,10 @@
     border: none;
     border-radius: 50px;
 
+    &:hover {
+      opacity: 0.8;
+    }
+
     &::placeholder {
       color: $grey-secondary;
       font-size: 13px;

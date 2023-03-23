@@ -2,8 +2,9 @@
   padding: 200px 0;
 
   background-image: url("../images/banner.png");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
 
   @media (max-width: 1075px) {
     padding-top: 248px;

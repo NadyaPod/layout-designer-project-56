@@ -27,7 +27,7 @@
   &--artist {
     width: 200px;
     padding: 21px;
-    padding-left: 74px;
+    padding-left: 68px;
     text-align: left;
 
     color: $white;
@@ -50,12 +50,12 @@
   }
 
   &--mix::before {
-    mask-image: url("../images/heart.svg");
+    mask-image: url("../images/play-button.svg");
     background-color: $white;
   }
 
   &--favourites::before {
-    mask-image: url("../images/play-button.svg");
+    mask-image: url("../images/heart.svg");
     background-color: $white;
   }
 

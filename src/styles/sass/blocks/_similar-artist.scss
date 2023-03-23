@@ -20,6 +20,8 @@
   }
 
   &__image {
+    display: block;
+
     @media (max-width: 1075px) {
       width: 137px;
       height: 137px;
