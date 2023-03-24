@@ -510,13 +510,13 @@ h3 {
   height: 20px;
 }
 .button--mix::before {
-  -webkit-mask-image: url("../images/play-button.svg");
-          mask-image: url("../images/play-button.svg");
+  -webkit-mask-image: url("../images/icons/play-button.svg");
+          mask-image: url("../images/icons/play-button.svg");
   background-color: #fff;
 }
 .button--favourites::before {
-  -webkit-mask-image: url("../images/heart.svg");
-          mask-image: url("../images/heart.svg");
+  -webkit-mask-image: url("../images/icons/heart.svg");
+          mask-image: url("../images/icons/heart.svg");
   background-color: #fff;
 }
 .button--purple {
