@@ -414,13 +414,13 @@ h3 {
   }
 }
 .option--free {
-  background-image: url("../images/subscribe_1.png");
+  background-image: url("../images/subscribe/subscribe_1.png");
 }
 .option--standard {
-  background-image: url("../images/subscribe_2.png");
+  background-image: url("../images/subscribe/subscribe_2.png");
 }
 .option--premium {
-  background-image: url("../images/subscribe_3.png");
+  background-image: url("../images/subscribe/subscribe_3.png");
 }
 .option__title {
   margin: 0;
@@ -719,17 +719,26 @@ h3 {
 }
 .footer__list--socials {
   display: flex;
-  gap: 24px;
+  gap: 10px;
 }
 .footer__list-title {
   margin-bottom: 15px;
 }
 .footer__link {
+  display: block;
   color: #e0e0e0;
   text-decoration: none;
 }
+.footer__link--icon {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 14px;
+}
 .footer__link:hover {
   color: #fff;
+}
+.footer__icon {
+  display: block;
 }
 .footer__navigation-container {
   border-top: 2px solid #cacaca;

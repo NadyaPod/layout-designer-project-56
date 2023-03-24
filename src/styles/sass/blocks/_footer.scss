@@ -30,7 +30,7 @@
 
     &--socials {
       display: flex;
-      gap: 24px;
+      gap: 10px;
     }
   }
 
@@ -39,12 +39,23 @@
   }
 
   &__link {
+    display: block;
     color: $light-grey;
     text-decoration: none;
+
+    &--icon {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 14px;
+    }
 
     &:hover {
       color: $white;
     }
+  }
+
+  &__icon {
+    display: block;
   }
 
   &__navigation-container {
