@@ -13,14 +13,26 @@
 
   &--free {
     background-image: url("../images/subscribe/subscribe_1.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../images/subscribe/subscribe_1@2x.png");
+    }
   }
 
   &--standard {
     background-image: url("../images/subscribe/subscribe_2.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../images/subscribe/subscribe_2@2x.png");
+    }
   }
 
   &--premium {
     background-image: url("../images/subscribe/subscribe_3.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../images/subscribe/subscribe_3@2x.png");
+    }
   }
 
   &__title {
