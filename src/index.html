@@ -89,6 +89,9 @@
         <li class="news__item album">
           <a class="album__link" href="#">
             <picture>
+              <source type="image/webp" media="(max-width: 975px)"
+                srcset="./images/news/Music_to_Be_Murdered_By-mobile.webp">
+              <source type="image/webp" srcset="./images/news/Music_to_Be_Murdered_By.webp">
               <source media="(max-width: 975px)" srcset="./images/news/Music_to_Be_Murdered_By-mobile.png">
               <img class="album__image" src="./images/news/Music_to_Be_Murdered_By.png" alt="Эминем" width="575"
                 height="286">
@@ -108,8 +111,10 @@
         <li class="news__item album album--reversed">
           <a class="album__link" href="#">
             <picture>
+              <source type="image/webp" media="(max-width: 975px)" srcset="./images/news/Ordinary_Man-mobile.webp">
+              <source type="image/webp" srcset="./images/news/Ordinary_Man.webp">
               <source media="(max-width: 975px)" srcset="./images/news/Ordinary_Man-mobile.png">
-              <img class="album__image" src="./images/news/Ordinary_Man.png" alt="Оззи Осборн">
+              <img class="album__image" src="./images/news/Ordinary_Man.png" alt="Оззи Осборн" width="575" height="286">
             </picture>
           </a>
           <div class="album__description description">
@@ -137,7 +142,10 @@
           <a class="mobile__button" href="#">Скачать</a>
         </div>
         <div class="mobile__image-container">
-          <img class="mobile__image" src="./images/iphone.png" width="333" height="278" alt="Айфоны.">
+          <picture>
+            <source type="image/webp" srcset="./images/iphone.webp">
+            <img class="mobile__image" src="./images/iphone.png" width="333" height="278" alt="Айфоны.">
+          </picture>
         </div>
       </div>
     </section>
