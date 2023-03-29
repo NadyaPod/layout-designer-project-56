@@ -9,13 +9,13 @@
   &__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    column-gap: 20px;
     row-gap: 25px;
     padding: 0;
     margin: 0;
     list-style-type: none;
 
-    @media (max-width: 1075px) {
+    @media (max-width: 1175px) {
       grid-template-columns: 1fr;
     }
   }
@@ -25,5 +25,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 1175px) {
+      max-width: 100%;
+    }
   }
 }
